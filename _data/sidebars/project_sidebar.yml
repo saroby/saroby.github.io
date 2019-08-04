@@ -1,1 +1,19 @@
-project_sidebar.yml
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: 프로젝트
+  levels: one
+  folders:
+
+  - title: 프로젝트
+    output: web
+    folderitems:
+    - title: 기술 블로그
+      url: /news.html
+      output: web
+    - title: 랜덤 채팅
+      url: /mydoc_introduction.html
+      output: web
+    - title: 감성 모바일 ebook
+      url: /p1_landing_page.html
+      output: web

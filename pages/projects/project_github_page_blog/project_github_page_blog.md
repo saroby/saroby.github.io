@@ -2,8 +2,8 @@
 title: Github Page를 이용한 기술 블로그
 keywords: project
 sidebar: project_sidebar
-permalink: project_github_page.html
-folder: projects
+permalink: project_github_page_blog.html
+folder: projects/project_github_page_blog
 ---
 
 
