@@ -29,6 +29,6 @@ topnav_dropdowns:
         - title: 내 프로젝트
           url: /project_landing_page.html
         - title: 커리어
-          url: /career_landing_page.html
+          url: /careers.html
         # - title: 관심있는 외부 프로젝트
         #   url: /external_landing_page.html
