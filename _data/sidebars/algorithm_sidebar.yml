@@ -6,68 +6,124 @@ entries:
   #version: 1.0 //이걸 주석화하면 버전이 표시되지 않는다.
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
+  # - title:
+  #   output: pdf
+  #   type: frontmatter
+  #   folderitems:
+  #   - title:
+  #     url: /titlepage.html
+  #     output: pdf
+  #     type: frontmatter
+  #   - title:
+  #     url: /tocpage.html
+  #     output: pdf
+  #     type: frontmatter
 
   - title: 정렬
     output: web, pdf
     folderitems:
     - title: 선택 정렬
-      url: /algorithm_landing_page.html
+      url: /sort_selection.html
       output: web
 
     - title: 삽입 정렬
-      url: /p1_sample1.html
+      url: /sort_insertion.html
       output: web, pdf
 
-    - title: 버블 정렬
-      url: /p1_sample2.html
+    - title: 거품 정렬
+      url: /sort_bubble.html
       output: web, pdf
 
     - title: 합병 정렬
-      url: /p1_sample3.html
+      url: /sort_merge.html
       output: web, pdf
 
-    - title: 퀵 정렬
-      url: /p1_sample3.html
+    - title: 빠른 정렬
+      url: /sort_quick.html
       output: web, pdf
 
     - title: 힙 정렬
-      url: /p1_sample3.html
+      url: /sort_heap.html
       output: web, pdf
 
     - title: 기수 정렬
-      url: /p1_sample3.html
+      url: /sort_radix.html
       output: web, pdf
 
   - title: 자료 구조
     output: web, pdf
     folderitems:
-    - title: Product 1 home
-      url: /p1_landing_page.html
+    - title: 단순 구조
+      #url: /p1_landing_page.html
       output: web
+      folderitems:
+      - title: 정수
+        url: /p1_sample1.html
+        output: web, pdf
 
-    - title: Sample 1
-      url: /p1_sample1.html
-      output: web, pdf
+      - title: 실수
+        url: /p1_sample2.html
+        output: web, pdf
 
-    - title: Sample 2
-      url: /p1_sample2.html
-      output: web, pdf
+      - title: 문자
+        url: /p1_sample3.html
+        output: web, pdf
 
-    - title: Sample 3
-      url: /p1_sample3.html
-      output: web, pdf
+      - title: 문자열
+        url: /p1_sample3.html
+        output: web, pdf
+
+    - title: 선형 구조
+      #url: /p1_landing_page.html
+      output: web
+      folderitems:
+      - title: 리스트
+        url: /p1_sample1.html
+        output: web, pdf
+
+      - title: 연결 리스트
+        url: /p1_sample2.html
+        output: web, pdf
+
+      - title: 스택
+        url: /p1_sample3.html
+        output: web, pdf
+
+      - title: 큐
+        url: /p1_sample3.html
+        output: web, pdf
+
+      - title: 덱
+        url: /p1_sample3.html
+        output: web, pdf
+
+    - title: 비선형 구조
+      #url: /p1_landing_page.html
+      output: web
+      folderitems:
+      - title: 트리
+        url: /p1_sample1.html
+        output: web, pdf
+
+      - title: 그래프
+        url: /p1_sample2.html
+        output: web, pdf
+
+    - title: 파일 구조
+      #url: /p1_landing_page.html
+      output: web
+      folderitems:
+      - title: 순차 파일
+        url: /p1_sample1.html
+        output: web, pdf
+
+      - title: 색인 파일
+        url: /p1_sample2.html
+        output: web, pdf
+
+      - title: 직접 파일
+        url: /p1_sample3.html
+        output: web, pdf
 
   - title: 이 외
     output: web, pdf

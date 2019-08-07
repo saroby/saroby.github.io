@@ -2,7 +2,7 @@
 title: 삽입 정렬
 keywords: algorithm, sort, 정렬
 sidebar: algorithm_sidebar
-permalink: insertion_sort.html
+permalink: sort_insertion.html
 folder: algorithms/sorts
 ---
 
