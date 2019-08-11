@@ -20,7 +20,7 @@ title: (Leet Code) Two Sum
 그동안 C++ 손은 대지 않아 두려움까지 느껴졌지만 'Two sum' 문제를 직접 푸는 것으로 현 상태를 확인해봤다.
 
 문제는 아래와 같다.
-``
+```
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -31,14 +31,14 @@ Given nums = [2, 7, 11, 15], target = 9,
 
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
-``
+```
 역시나 감은 많이 떨어져 있었는데 vector의 사이즈 가져오는 함수조차 기억나지 않아 헤멨다.
 
 구글링을 통하여 vector 사용법에 대해 찾아봤다.
 
 어렵지 않은 역경이었기에 성공적으로 '통과'를 할 수 있었다.
 
-![]({{site.baseurl}}/_posts/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E![스크린샷 2019-08-11 오후 1.20.10.png]({{site.baseurl}}/_posts/스크린샷 2019-08-11 오후 1.20.10.png)
+![cpp]({{site.baseurl}}/_posts/2019-08-11-algorithm_test_two_sum-cpp.png)
 
 내가 지금 할 수 있는 언어는 C#, python, swift, javascript, go, c++, PHP 정도이다.
 
