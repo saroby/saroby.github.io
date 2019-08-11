@@ -1,5 +1,9 @@
 ---
 published: false
+title: '회사 분석, Send Bird'
+tags:
+  - company_profile
+  - post
 ---
 ## SendBird사에 대하여
 
