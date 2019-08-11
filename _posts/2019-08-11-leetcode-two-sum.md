@@ -81,4 +81,20 @@ C# 문제를 풀면서 하나 의문이 들었다.
 
 Leetcode에서는 막지 않은 것 같으므로 사용해서 풀어봤다.
 
+python으로 풀어봤는데, for문을 돌면서 key와 value를 한꺼번에 가져오는 방법을 예전에 사용한 기억이 났다.
+
+하지만 자세한 방법은 생각나지 않아 잠깐 구글링을 해봤다.
+```python
+# 인덱스 번호와 컬렉션의 원소를 tuple 형태로 반환
+for idx, value in enumerate(s):
+	print("idx : {}, value: {}".format(idx, value))
+```
+
+swift에서 막혔던 부분은 dictionary에 key가 존재하는지 확인하는 부분이었다.
+C#처럼 ContainsKey 함수는 존재하지 않고 아래처럼 간단하게 key가 존재하는 지 체크할 수 있었다
+```swift
+if cache['key'] != nil {
+}
+```
+
 {% include links.html %}
