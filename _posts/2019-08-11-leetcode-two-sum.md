@@ -3,6 +3,7 @@ published: true
 permalink: leetcode-two-sum.html
 tags:
   - post
+title: (Leet Code) Two Sum
 ---
 ## (Leet Code) Two Sum
 
