@@ -1,6 +1,8 @@
 ---
 published: true
-permalink: leetcode-two_sum.html
+permalink: leetcode-two-sum.html
+tags:
+  - post
 ---
 ## (Leet Code) Two Sum
 
