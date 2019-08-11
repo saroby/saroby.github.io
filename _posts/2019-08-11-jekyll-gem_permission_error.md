@@ -36,3 +36,5 @@ bundle install
 bundle exec jekylee serve
 ```
 그리고 위의 명령어로 로컬서버를 키면 된다.
+
+{% include links.html %}
