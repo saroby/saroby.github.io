@@ -3,10 +3,9 @@ published: true
 permalink: leetcode-two-sum.html
 tags:
   - post
+  - algorithm
 title: (Leet Code) Two Sum
 ---
-## (Leet Code) Two Sum
-
 회사에서 일이 루즈하다보니 요즘 감이 떨어졌다는 생각이 들었다.
 
 친동생이 좋은 알고리즘테스트 사이트(https://leetcode.com)를 추천해줬다.
