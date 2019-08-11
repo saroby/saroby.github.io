@@ -1,5 +1,6 @@
 ---
 published: true
+permalink: leetcode-two_sum.html
 ---
 ## (Leet Code) Two Sum
 
