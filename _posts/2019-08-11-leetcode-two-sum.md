@@ -3,7 +3,7 @@ published: true
 permalink: leetcode-two-sum.html
 tags:
   - post
-title: (Leet Code) Two Sum
+title: 'Leet Code문제, Two Sum'
 ---
 회사에서 일이 루즈하다보니 요즘 감이 떨어졌다는 생각이 들었다.
 
