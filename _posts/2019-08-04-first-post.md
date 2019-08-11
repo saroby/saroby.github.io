@@ -1,8 +1,10 @@
 ---
-title:  "깃허브 페이지로 블로그 시작"
-date: 2019-08-03 12:24:00
+title: 깃허브 페이지로 블로그 시작
+date: {}
 permalink: first-post.html
-tags: [post]
+tags:
+  - post
+published: true
 ---
 
 깃허브 페이지를 처음 사용하고 있다.
