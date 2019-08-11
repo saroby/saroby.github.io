@@ -2,6 +2,7 @@
 published: false
 tag:
   - jekyll
+title: jekyll을 어떻게 쉽게 사용할 것인가?
 ---
 ## jekyll을 어떻게 쉽게 사용할 것인가?
 나는 반복되는 일은 더욱 편하고 간단히 처리할 수 있도록 노력하곤 한다.
