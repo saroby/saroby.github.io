@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## (Leet Code) Two Sum
 
