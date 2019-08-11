@@ -4,6 +4,7 @@ title: gem permission denied 대응
 tags:
   - post
   - ruby
+permalink: gem_permisison_denied.html
 ---
 노트북 어뎁터를 회사에서 가져오지 않았기 때문에, 맥북으론 jekyll 블로그를 관리해야 할 일이 생겼다.
 MacOS에서는 기본적으로 Ruby가 설치되있다.
