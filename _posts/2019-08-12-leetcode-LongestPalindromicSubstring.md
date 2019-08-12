@@ -15,19 +15,18 @@ c++ 문법이 익숙하지 못한다는 핑계를 대지 못하는건, 충분한
 
 코드를 세이브하고 내일 다시 풀어봐야겠다.
 
-```
-Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 
-Example 1:
+> Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+> Example 1:
+>
+> Input: "babad"
+> Output: "bab"
+> Note: "aba" is also a valid answer.
+> Example 2:
+>
+> Input: "cbbd"
+> Output: "bb"
 
-Input: "babad"
-Output: "bab"
-Note: "aba" is also a valid answer.
-Example 2:
-
-Input: "cbbd"
-Output: "bb"
-```
 
 ```c++
 #include <stdio.h>
