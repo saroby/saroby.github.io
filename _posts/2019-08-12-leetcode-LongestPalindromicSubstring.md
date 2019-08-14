@@ -90,3 +90,58 @@ public:
 화장실에서 Palindromic라는 단어를 찾아보았다.
 '앞으로 뒤로 읽어도 똑같은 단어'라는 뜻이었다.. 문제를 잘못이해하고 있으니 오답이 나오지!
 앞으로는 건성으로 문제를 파악하지 말자 제발.
+
+
+
+8월 14일. 하루 휴가를 쓰고 공부를 했다.
+생각보다 오래걸려서 문제를 풀었다.
+알고리즘을 풀면서 Success가 나올 때 크으.
+![problem_success]({{site.baseurl}}/_posts/longestPalindrome_success.PNG)
+
+```c++
+#include <iostream>
+
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        //s = "babad";
+        //cout << s << endl << endl;
+        
+        /*
+        앞뒤로 읽어도 같은 단어 중 가장 긴 것을 찾아라
+        */
+        string longest = "";
+        for (int i=0; i<s.size(); i++) {
+            //cout << i << endl;
+            string oddWord = getPalindromic(s, i, i);
+            string evenWord = getPalindromic(s, i, i+1);
+            string biggerWord = oddWord.size() >= evenWord.size() ?  oddWord : evenWord;
+            if (longest.size() < biggerWord.size()) {
+                longest = biggerWord;
+            }
+            cout << endl;
+        }
+        //cout << endl << longest;
+        return longest;
+    }
+private:
+    string getPalindromic(string s, int left, int right) {
+        int i = left;
+        int j = right;
+        if (s[i] != s[j])
+            return "";
+        while (i >= 0 && j <= s.size() && s[i] == s[j]) {
+            i--;
+            j++;
+        }
+        auto output = s.substr(i+1, j-i-1);
+        //cout << output << endl;
+        return output;
+    }
+};
+```
+
+leetcode에서 제공하는 솔루션과 다른점은 getPalindromic 함수가 int가 아닌 string을 리턴한다는 것이다.
+
+빨리 다음문제를 풀어보자.
+
